@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Integrador Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar navbar-light text-white" style="background-color: rgb(43, 39, 39);">
+    <a class="navbar-brand text-white" href="#">
+      <img src="codoacodo.png" width="150" height="70" class="d-inline-block  align-middle" alt="">
+      Conf Bs As
+    </a>
+     <ul class="nav justify-content-end" style="padding-inline-end: 10rem;">
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="#conferencia">La Conferencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#oradores">Los oradores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#lugarfecha">El lugar y la fecha</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#convorador">Conviertete en orador</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-success" href="https://www.ticketek.com.ar/">Comprar Tickets</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="card bg-dark text-white">
+        <img src="ba1.jpg" class="card-img" alt="...">        
+        <div class="card-img-overlay">
+          <div class= "col md-6 card w-50 d-flex justify-content-end bg-transparent">
+            <a name="conferencia"></a>          
+          <h5 class="card-title d-flex flex-row-reverse fs-1">Conf Bs As</h5>
+          <p class="card-text">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento , a otros estudiantes de Codo a Codo  y los oradores de primer nivel que tenemos para ti. Te esperamos</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class=" btn btn-light text text-white me-md-2 bg-transparent" type="button">Quiero ser Orador</button>
+            <a href="https://www.ticketek.com.ar/"> <button class="btn btn-success" type="button">Comprar tickets</button>
+            </a>
+          </div>
+        </div>
+        </div>
+        
+      </div>
+      <p class="text-center" style="margin-top: 1.5rem;"font-size: small;">CONOCE A LOS</p>
+      <a name="oradores"></a>
+      <p class="text-center fs-3 fw-bold lh-1">ORADORES</p>
+    </div>
+
+
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 15rem; margin-right: 15rem;">
+        <div class="col">
+          <div class="card h-100">
+            <img src="steve.jpg" class="card-img-top" alt="...">
+            <div class="d-grid gap-2 d-md-block" style="margin-top: 0.5rem; margin-left: 0.5rem;">
+              <button class="btn btn-warning btn-sm fw-bold" type="button">Java</button>
+              <button class="btn btn-primary btn-sm fw-bold text-light" type="button">React</button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Steve Jobs</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci reiciendis, itaque laborum consectetur suscipit non delectus nulla officiis sapiente eveniet nam inventore soluta esse illo explicabo magni, unde totam laudantium.</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="bill.jpg" class="card-img-top" alt="...">
+            <div class="d-grid gap-2 d-md-block" style="margin-top: 0.5rem; margin-left: 0.5rem;">
+              <button class="btn btn-warning btn-sm fw-bold" type="button">Java</button>
+              <button class="btn btn-primary btn-sm fw-bold text-light" type="button">React</button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Bill Gates</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nam quod ducimus, voluptatum aspernatur nihil error corrupti reprehenderit. Repudiandae et odio, deserunt cumque impedit commodi nam quidem voluptatem in repellendus.</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="ada.jpeg" class="card-img-top" alt="...">
+            <div class="d-grid gap-2 d-md-block" style="margin-top: 0.5rem; margin-left: 0.5rem;">
+              <button class="btn btn-secondary btn-sm fw-bold text-light" type="button">Negocios</button>
+              <button class="btn btn-danger btn-sm fw-bold text-light" type="button">Startups</button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Ada Lovelace</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, laboriosam consequatur doloribus nisi, repudiandae sit impedit perferendis doloremque fugit voluptatum minima, nostrum expedita libero aut modi? Beatae similique dolorem cupiditate?.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a name="lugarfecha"></a>
+      <div class="card mb-3" style="margin-top: 2rem;" >
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img src="honolulu.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-6" style="background-color: rgb(43, 39, 39);">
+            <div class="card-body" >
+              <h5 class="card-title text-light fs-3">Bs As - Octubre</h5>
+              <p class="card-text text-light">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unicos, Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidad que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+              <button class=" btn btn-light text text-white me-md-2 bg-transparent" type="button">Conocé más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-center" style="margin-top: 1.5rem;"font-size: small;">CONVIÉRTETE EN UN </p>
+    <a name="convorador"></a>
+    <p class="text-center fs-3 fw-bold lh-1">ORADOR</p>
+    <p class="text-muted text-center fs-5">
+      Anótate como orador para dar una <a href="#" class="text-reset">charla ignite</a> Cuéntanos de que quieres hablar!.
+    </p>
+    <div class="row g-3" style="margin-left: 20rem; margin-right: 20rem;">
+      <div class="col">
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingInputGrid" placeholder="nombres">
+          <label for="floatingInputGrid">Nombre</label>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingInputGrid" placeholder="apellidos">
+          <label for="floatingInputGrid">Apellido</label>
+        </div>
+      </div>
+    </div>
+    <div style="margin-left:20rem ; margin-right: 20rem; margin-top: 1rem;">
+      <textarea class="form-control fs-2" rows="5" id="comment" name="text" >¿Sobre qué quieres hablar?</textarea>
+      <p class="text">Recuerda incluir un título para tu charla</p>
+    </div>
+    <div class="d-grid gap-2 col-8 mx-auto">
+      <button class="btn btn-success" type="button">Enviar</button>
+      </div>
+
+      <nav class="navbar navbar-light text-white d-flex justify-content-around" style="background-color: rgb(43, 39, 39); margin-top: 1rem;">
+             
+            <div class="nav-item">
+              <a class="nav-link active text-white text-wrap" style="width: 6rem;" href="#">Preguntas Frecuentes</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link text-white" href="#">Contáctanos</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link text-white" href="#">Prensa</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link text-white" href="#">Conferencia</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link text-white text-wrap text-center" style="width: 6rem;" href="#">Términos y Condiciones</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link text-white" href="#">Privacidad</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link text-white" href="#">Estudiantes</a>
+            </div>
+          </div>
+        </nav>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
