@@ -1,0 +1,14 @@
+.textOpaco {
+    color: lightgray;
+    font-size: 7rem;
+}
+
+.total {
+    background-color: lightblue;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+
+
+}
